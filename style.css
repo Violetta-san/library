@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    
+}
+.navigation{
+    background-color: antiquewhite;
+    display: flex;
+}
+.links{
+    background-color: rgb(76, 110, 110);
+    width: 600px;
+}
+.reg{
+    background-color: rgb(203, 135, 52);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.main_content{
+    background-color: rgb(59, 59, 91);
+    display: flex;
+}
+.quote{
+    background-color: cadetblue;
+    width: 600px;
+}
+.slogan{
+    background-color: chocolate;
+    width: 1050px;
+}
+.top-week{
+    background-color: cornflowerblue;
+    width: 300px;
+}
+.demo{
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.instruction{
+    background-color: dimgray;
+}
