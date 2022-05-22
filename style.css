@@ -1,51 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lobster&display=swap');* {
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lobster&display=swap");
+* {
 }
-nav {
-  display: flex;
-  flex-direction: column;
+main {
+  background: url();
 }
 h1 {
   text-align: center;
- font-family: 'Alex Brush', cursive;
+  font-family: "Alex Brush", cursive;
+  margin-top: 10px;
 }
-.navigation {
-  background-color: antiquewhite;
+.content {
   display: flex;
-  
+}
+.left {
+  padding: 0 40px;
+  width: 1500px;
 }
 .links {
-  background-color: rgb(76, 110, 110);
-  width: 1050px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Lobster', cursive;
-
+  font-family: "Lobster", cursive;
 }
 .links a {
-    text-decoration: none;
-}
-.reg {
-  background-color: rgb(203, 135, 52);
-  display: flex;
-  flex-direction: column;
-  width: 360px;
-}
-.main_content {
-  background-color: rgb(59, 59, 91);
-  display: flex;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #afb3c1;
+  color: rgb(33 37 41);
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 2.2px;
+  line-height: 2;
+  border-radius: 90px;
 }
 .quote {
-  background-color: cadetblue;
-  width: 1050px;
+  background-color: ;
+  font-family: "Lobster", cursive;
+  display: flex;
+  margin-top: 10px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
 }
 .slogan {
   background-color: chocolate;
-  width: 1050px;
-}
-.top-week {
-  background-color: cornflowerblue;
-  width: 360px;
+  font-family: "Lobster", cursive;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-line;
 }
 .demo {
   background-color: darkgreen;
@@ -54,4 +58,27 @@ h1 {
 }
 .instruction {
   background-color: dimgray;
+}
+.right {
+  padding: 0 40px;
+}
+.authorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Alex Brush", cursive;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.reg {
+  background-color: rgb(203, 135, 52);
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.top-week {
+  background-color: cornflowerblue;
+  width: 360px;
 }
