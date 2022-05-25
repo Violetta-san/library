@@ -8,13 +8,14 @@ h1 {
   text-align: center;
   font-family: "Alex Brush", cursive;
   margin-top: 10px;
+  font-size: 60px;
 }
 .content {
   display: flex;
 }
 .left {
-  padding: 0 40px;
-  width: 1500px;
+  padding: 0 10px;
+  width: 75%;
 }
 .links {
   display: flex;
@@ -23,6 +24,7 @@ h1 {
   font-family: "Lobster", cursive;
 }
 .links a {
+  background: #D5BE9C;
   text-decoration: none;
   box-sizing: border-box;
   border: 1px solid #afb3c1;
@@ -31,10 +33,14 @@ h1 {
   font-style: italic;
   letter-spacing: 2.2px;
   line-height: 2;
-  border-radius: 90px;
+  border-radius: 100%;
+  padding: 4px;
+  width: 100px;
+    text-align: center;
 }
+
 .quote {
-  background-color: ;
+  /* background-color: ; */
   font-family: "Lobster", cursive;
   display: flex;
   margin-top: 10px;
@@ -49,7 +55,8 @@ h1 {
   margin-top: 10px;
   justify-content: center;
   align-items: center;
-  white-space: pre-line;
+  font-size: 30px;
+  
 }
 .demo {
   background-color: darkgreen;
@@ -60,13 +67,14 @@ h1 {
   background-color: dimgray;
 }
 .right {
-  padding: 0 40px;
+  padding: 0 20px;
+  width: 25%;
 }
 .authorization {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 260px;
+  width: 80%;
   margin: 10px auto;
   font-family: "Alex Brush", cursive;
   font-size: 20px;
@@ -77,10 +85,8 @@ h1 {
   border: 3px solid #000000;
 }
 .reg {
-  background-color: rgb(203, 135, 52);
   display: flex;
   flex-direction: column;
-  width: 360px;
   align-items: center;
   padding: 10px 0;
   justify-content: space-evenly;
@@ -90,6 +96,12 @@ h1 {
   mix-blend-mode: screen;
 }
 .top-week {
-  background-color: cornflowerblue;
-  width: 360px;
+  font-family: "Lobster", cursive;
+  background: rgba(209, 170, 134, 0.56);
+  border: 2px solid #000000;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
